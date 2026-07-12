@@ -31,100 +31,19 @@ I enjoy solving real-world problems through scalable applications, AI agents, an
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-### Frontend
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🎬 Framer Motion
+- 🎯 React Icons
+- 🌐 HTML5
+- 🎨 CSS3
+- 📦 npm
+- 🔧 Git & GitHub
+- 🚀 Netlify
 
-- React
-- Vite
-- Tailwind CSS
-- Framer Motion
-- React Icons
-
-### Programming Languages
-
-- Python
-- Java
-- SQL
-- JavaScript
-
-### Backend
-
-- FastAPI
-- REST APIs
-
-### AI & ML
-
-- Machine Learning
-- Large Language Models (LLMs)
-- AI Agents
-- Prompt Engineering
-
-### Tools
-
-- Git
-- GitHub
-- Docker
-- Kubernetes
-- IBM Quantum
-- Qiskit
-
----
-
-## 📂 Featured Projects
-
-### ⚛️ Quantum Dashboard
-
-A full-stack Quantum Computing Dashboard built using FastAPI and IBM Quantum Runtime for monitoring and managing quantum jobs.
-
-**Tech Stack**
-
-- FastAPI
-- Qiskit
-- IBM Quantum Runtime
-- HTML
-- CSS
-
----
-
-### 🤖 Auto PPT Agent
-
-An AI-powered automation system that generates professional PowerPoint presentations from user prompts using LLM workflows.
-
-**Tech Stack**
-
-- Python
-- LLMs
-- Automation
-
----
-
-### 🛡️ Zero Risk Riders
-
-An AI-powered road safety platform focused on rider awareness and accident prevention.
-
-**Tech Stack**
-
-- Python
-- Machine Learning
-- AI
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of your portfolio here.
-
-```
-screenshots/
-│
-├── home.png
-├── projects.png
-├── skills.png
-└── contact.png
-```
-
----
 
 ## ⚙️ Installation
 
@@ -190,12 +109,6 @@ src
 - Project Detail Pages
 - Visitor Analytics
 - Interactive AI Assistant
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
 
 ---
 
