@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import quantumImg from "../assets/images/quantum.png";
 import autoPptImg from "../assets/images/auto_ppt_generator.png";
 import zeroRiskImg from "../assets/images/zero_risk_riders.png";
+import portfolioImg from "../assets/images/portfolio.png";
 
 function Projects() {
   return (
@@ -43,9 +44,10 @@ function Projects() {
             image={autoPptImg}
             description="An AI-powered agent that automatically generates professional PowerPoint presentations from user prompts using LLM workflows and automation."
             tech={[
-              "Python",
+              "MCP Architecture(agents+tools)",
               "LLM",
-              "Automation",
+              "python",
+              "Streamlit UI",
             ]}
             github="https://github.com/megh-0610/auto_ppt_generator"
           />
@@ -56,13 +58,27 @@ function Projects() {
             image={zeroRiskImg}
             description="An intelligent road safety platform focused on rider awareness and accident prevention using AI and modern software technologies."
             tech={[
-              "Python",
-              "AI",
-              "Machine Learning",
+              "C++",
+              "Arduino UNO",
+              "IoT",
             ]}
             github="https://github.com/megh-0610/alcohol_detection"
           />
 
+          {/* Personal Portfolio */}
+        <ProjectCard
+           title="Developer Portfolio"
+           image={portfolioImg}
+           description="A modern, responsive portfolio website showcasing my AI/ML projects, technical skills, experience, certifications, and leadership journey through an interactive and visually engaging interface."
+           tech={[
+           "React",
+          "Vite",
+          "Tailwind CSS",
+          "Framer Motion",
+       ]}
+          github="https://github.com/megh-0610/meghana-portfolio"
+          live="https://meghana-portfoli.netlify.app/"
+          />
         </div>
 
       </div>

@@ -56,21 +56,22 @@ function About() {
             transition={{ duration: .8 }}
           >
 
-            <h3 className="text-4xl font-bold leading-tight mb-6">
+            <h5 className="text-4xl font-bold leading-tight mb-6">
               Final-Year AI & ML Student
-            </h3>
+            </h5>
 
             <p className="text-lg leading-9 text-gray-300">
-              I'm passionate about building AI-powered applications that solve
-              real-world problems. My interests include Large Language Models,
-              AI Agents, Backend Development, Cloud Technologies, and Quantum
-              Computing.
+              Final-year B.Tech student specializing in Artificial Intelligence and Machine Learning, 
+              with a strong foundation in Data Structures, Algorithms, Object-Oriented Programming, 
+              and software engineering. Passionate about building scalable and intelligent software
+              solutions.
             </p>
-
+            <h5 className="text-xl font-bold leading-tight mb-6 mt-10">
+              NCC Cadet & Aspiring Software Engineer
+            </h5>
             <p className="text-lg leading-9 text-gray-300 mt-6">
-              During my internship at Calibo AI Academy, I worked on FastAPI,
-              Docker, Kubernetes, enterprise AI applications, and intelligent
-              automation systems.
+              As an NCC-trained cadet, I bring strong leadership, teamwork, and problem-solving skills, 
+              and I am eager to contribute as a Software Engineer or AI Engineer.
             </p>
 
             <div className="grid grid-cols-2 gap-5 mt-10">

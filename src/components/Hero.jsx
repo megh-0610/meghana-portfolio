@@ -5,14 +5,7 @@ import { motion } from "framer-motion";
 import heroImage from "../assets/hero.png";
 import resume from "../assets/resume/R_Meghana_Resume.pdf";
 
-const techStack = [
-  "Python",
-  "FastAPI",
-  "Docker",
-  "Kubernetes",
-  "LLMs",
-  "Qiskit",
-];
+
 
 function Hero() {
   return (
@@ -152,41 +145,68 @@ function Hero() {
               <img
                 src={heroImage}
                 alt="Meghana"
-                className="w-full h-[360px] object-cover rounded-2xl"
+                className="w-full h-[380px] object-cover rounded-2xl"
               />
 
-              <div className="mt-6">
+              <div className="mt-6 space-y-4">
 
-                <h3 className="text-2xl font-bold">
-                  R Meghana
-                </h3>
+  <div>
+    <h3 className="text-3xl font-bold text-white">
+      R Meghana
+    </h3>
 
-                <p className="text-[#19B7A5] mt-2">
-                  AI Engineer
-                </p>
+    <p className="text-[#19B7A5] font-medium mt-1">
+      Where Artificial Intelligence Meets Software Engineering.
+    </p>
+  </div>
 
-                <p className="text-[#B9C7D3] mt-1">
-                  🟢 Available for Opportunities
-                </p>
+  <div className="space-y-2 text-[#B9C7D3] text-sm">
 
-                <p className="text-[#B9C7D3]">
-                  📍 India
-                </p>
+    <div className="flex justify-between items-center border-b border-white/10 pb-2">
+      <div>
+        <p className="font-semibold text-white">🎓 B.Tech (AI & ML)</p>
+        <p>DIET • Final Year</p>
+      </div>
+      <span className="text-[#19B7A5] font-semibold">
+        8.8 CGPA
+      </span>
+    </div>
 
-              </div>
+    <div className="flex justify-between items-center border-b border-white/10 pb-2">
+      <div>
+        <p className="font-semibold text-white">📘 Diploma</p>
+        <p>Intermediate</p>
+      </div>
+      <span className="text-[#19B7A5] font-semibold">
+        83%
+      </span>
+    </div>
 
-              <div className="grid grid-cols-2 gap-3 mt-8">
+    <div className="flex justify-between items-center">
+      <div>
+        <p className="font-semibold text-white">📖 SSC</p>
+        <p>Central Board of Secondary Education</p>
+      </div>
+      <span className="text-[#19B7A5] font-semibold">
+        80%
+      </span>
+    </div>
 
-                {techStack.map((tech) => (
-                  <div
-                    key={tech}
-                    className="bg-[#08131E] border border-white/10 rounded-full py-2 text-center text-sm text-[#19B7A5]"
-                  >
-                    {tech}
-                  </div>
-                ))}
+  </div>
 
-              </div>
+  <div className="pt-3 border-t border-white/10 text-sm">
+    <p className="text-green-400 font-medium">
+      🟢 Open to Software Engineering & AI/ML Opportunities
+    </p>
+    <p className="text-[#B9C7D3] mt-1">
+      📍 Andhra Pradesh, India
+    </p>
+  </div>
+  
+
+</div>
+
+              
 
             </div>
 

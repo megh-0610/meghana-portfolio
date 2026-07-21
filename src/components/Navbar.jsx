@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "framer-motion";
+import resume from "../assets/resume/R_Meghana_Resume.pdf";
+import logo from "../assets/images/logo.png";
 
 const navItems = [
   { name: "Projects", id: "projects" },
@@ -34,15 +36,16 @@ function Navbar() {
     >
       <div className="max-w-7xl mx-auto h-20 px-6 flex items-center justify-between">
 
-        {/* Logo */}
         <a
-          href="#hero"
-          className="text-2xl font-extrabold tracking-[0.2em] text-white"
-        >
-          <span className="text-[#19B7A5]">&lt;</span>
-          RM
-          <span className="text-[#19B7A5]">/&gt;</span>
-        </a>
+  href="#hero"
+  className="flex items-center gap-3 group"
+>
+  <img
+    src={logo}
+    alt="RM Logo"
+    className="h-12 w-auto transition-transform duration-300 group-hover:scale-110"
+  />
+</a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">
@@ -58,12 +61,12 @@ function Navbar() {
           ))}
 
           <a
-            href="/resume.pdf"
-            download
-            className="px-5 py-2.5 rounded-xl bg-[#19B7A5] text-[#08131E] font-semibold hover:bg-[#33E0C7] transition duration-300 hover:scale-105"
-          >
-            Resume
-          </a>
+  href={resume}
+  download
+  className="px-5 py-2.5 rounded-xl bg-[#19B7A5] text-[#08131E] font-semibold hover:bg-[#33E0C7] transition duration-300 hover:scale-105"
+>
+  Resume
+</a>
 
         </nav>
 
@@ -102,12 +105,12 @@ function Navbar() {
               ))}
 
               <a
-                href="/resume.pdf"
-                download
-                className="mt-2 text-center py-3 rounded-xl bg-[#19B7A5] text-[#08131E] font-semibold"
-              >
-                Download Resume
-              </a>
+  href={resume}
+  download
+  className="mt-2 text-center py-3 rounded-xl bg-[#19B7A5] text-[#08131E] font-semibold"
+>
+  Download Resume
+</a>
 
             </div>
           </motion.div>

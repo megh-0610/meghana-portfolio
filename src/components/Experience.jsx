@@ -64,7 +64,7 @@ function Experience() {
           </p>
 
           <p className="text-gray-400 text-sm mt-1">
-            2025 – Present
+            DEC 2025 – Present
           </p>
 
         </div>
